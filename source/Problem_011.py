@@ -9,9 +9,6 @@ gridSize = 20
 maxProd = 0
 
 
-def getListfromString(s):
-    return list(s)
-
 
 def getUp(x, y):
     upList = []
