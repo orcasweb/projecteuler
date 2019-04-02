@@ -10,6 +10,7 @@ def sumNumDigits(numList):
     else:
         return int(numList[0]) + sumNumDigits(numList[1:])
 
-sumNum = sumNumDigits(list(str(2**1000)))
-print("2 to the power of 1000 is: ",2**1000)
+staticNum = 1000
+sumNum = sumNumDigits(list(str(2**staticNum)))
+print("2 to the power of 1000 is: ",2**staticNum)
 print("the sum of 2 to the power of 1000 is:", sumNum)
