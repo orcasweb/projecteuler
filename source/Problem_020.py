@@ -3,7 +3,6 @@ Created on Apr 11, 2019
 
 @author: orcasweb
 '''
-import string
 from math import factorial
 factNum = 100
 finalResult = 0
