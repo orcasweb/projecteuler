@@ -26,6 +26,7 @@ for x in line:
     nameVal = getNameValue(x)
     pos = line.index(x)+1
     namesValues.append(nameVal*pos)   
+print("------------")
 print(sum(namesValues))   
-
+print("------------")
 
