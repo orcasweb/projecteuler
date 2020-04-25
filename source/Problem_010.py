@@ -23,9 +23,9 @@ def isPrime(n):
             return False
     return True 
 
-numLimit = 2000000
+primesBelow = 2000000
 pList = []
-for i in range(2,numLimit):
+for i in range(2,primesBelow):
     if(isPrime(i)):
         pList.append(i)
 print(sum(pList))
